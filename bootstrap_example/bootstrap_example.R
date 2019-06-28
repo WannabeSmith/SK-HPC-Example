@@ -51,4 +51,4 @@ print("bootstrap beta hat estimate:")
 print(sequential.beta.hat)
 
 mpi.exit()
-mpi.quit()
+stop("Finished execution")

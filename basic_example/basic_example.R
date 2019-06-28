@@ -17,4 +17,5 @@ results.list <- parLapply(cl, 1:n.iter, function(iter){
 print(results.list)
 
 mpi.exit()
-mpi.quit()
+
+stop("Finished execution")
