@@ -1,7 +1,7 @@
 library(Rmpi)
 library(snow)
 
-n.boot <- 10000
+n.boot <- 9999 
 n <- 5000
 d <- 5
 
