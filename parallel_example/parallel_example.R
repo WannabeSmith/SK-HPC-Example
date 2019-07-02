@@ -11,7 +11,8 @@ clusterExport(cl, ls()) # Send all objects in R session to cl
 n.iter <- 6 
 
 results.list <- parLapply(cl, 1:n.iter, function(iter){
-  return(paste("iteration", iter, "running on", mpi.get.processor.name(short = FALSE)))
+  return(paste("iteration", iter, "running on", 
+               mpi.get.processor.name(short = FALSE)))
 })
 
 print(results.list)
