@@ -7,4 +7,4 @@
 module purge
 module load R/3.5.3_rmpi
 
-mpirun -np 1 Rscript ~/GitProjects/SK-HPC-Example/basic_example/basic_example.R
+mpirun -np 1 Rscript ~/GitProjects/SK-HPC-Example/parallel_example/parallel_example.R
